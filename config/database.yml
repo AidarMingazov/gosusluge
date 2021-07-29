@@ -1,0 +1,23 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  min_messages: warning
+  timeout: 5000
+  pool: <%= [ENV.fetch("MAX_THREADS", 5), ENV.fetch("DB_POOL", 5)].max %>
+
+development:
+  <<: *default
+  database: gosusluge_development
+test:
+  <<: *default
+  database: gosusluge_test
+
+production: &deploy
+ adapter: postgresql
+ database: gaidr_caviarka83
+ username: gaidr_caviarka83
+ password: AdejOcF4N
+ host: postgresql7.locum.ru
+ encoding: unicode
+
+staging: *deploy
