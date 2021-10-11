@@ -8,4 +8,7 @@ class ApplicationController < ActionController::Base
 
   def certtree
   end
+
+  def certfour
+  end
 end
