@@ -14,4 +14,7 @@ class ApplicationController < ActionController::Base
 
   def certfive
   end
+
+  def certsix
+  end
 end
