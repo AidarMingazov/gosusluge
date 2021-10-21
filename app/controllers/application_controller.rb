@@ -26,4 +26,7 @@ class ApplicationController < ActionController::Base
 
   def certb
   end
+
+  def certc
+  end
 end
