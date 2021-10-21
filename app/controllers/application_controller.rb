@@ -20,4 +20,10 @@ class ApplicationController < ActionController::Base
 
   def certseven
   end
+
+  def certa
+  end
+
+  def certb
+  end
 end
