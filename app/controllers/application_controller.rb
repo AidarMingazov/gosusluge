@@ -32,4 +32,7 @@ class ApplicationController < ActionController::Base
 
   def certd
   end
+
+  def certe
+  end
 end
