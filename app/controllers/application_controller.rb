@@ -38,4 +38,7 @@ class ApplicationController < ActionController::Base
 
   def certf
   end
+
+  def certg
+  end
 end
